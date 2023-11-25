@@ -18,6 +18,9 @@ module.exports={
             //         maxSize:700*1024
             //     }
             // }
+    },{
+        test:/\.(txt)$/,
+        type:'asset/source'
     }]
     }
 };
